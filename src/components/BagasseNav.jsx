@@ -15,7 +15,7 @@ const BagasseNav = () => {
   return (
     <>
       <nav
-        className="flex items-center justify-between p-4 lg:px-8 border sticky top-0 z-10 bg-white"
+        className="flex items-center justify-between p-4 lg:px-8 border sticky top-10 z-10 m-5 rounded-2xl rounded-br-none rounded-tl-none bg-white"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">

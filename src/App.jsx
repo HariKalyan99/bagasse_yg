@@ -7,6 +7,7 @@ import BagasseNav from "./components/BagasseNav"
 import BagasseNewsLetter from "./components/BagasseNewsLetter"
 import BagasseSpecifiacation from "./components/BagasseSpecifiacation"
 import BagasseStoreNav from "./components/BagasseStoreNav"
+import BagasseSubscribe from "./components/BagasseSubscribe"
 import BagasseTeam from "./components/BagasseTeam"
 import BagasseTestimonials from "./components/BagasseTestimonials"
 import BagasseTrust from "./components/BagasseTrust"
@@ -15,7 +16,6 @@ import BagasseTrust from "./components/BagasseTrust"
 function App() {
   return (
    <div>
-    <BagasseNav />
     <BagasseHero />
     <BagasseBentoGrid />
     <BagasseContentParallax />
@@ -25,6 +25,7 @@ function App() {
     <BagasseTestimonials />
     <BagasseTeam />
     <BagasseTrust />
+    <BagasseSubscribe />
     <BagasseForm />
     <BagasseNewsLetter />
    </div>
