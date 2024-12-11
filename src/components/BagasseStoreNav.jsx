@@ -1,4 +1,11 @@
 import React from 'react'
+import pic1 from '/1.jpeg';
+import pic2 from '/2.jpeg';
+import pic3 from '/3.jpeg';
+import pic4 from '/4.jpeg';
+import pic5 from '/5.jpeg';
+import pic6 from '/6.jpeg';
+import pic7 from '/7.jpeg';
 
 const BagasseStoreNav = () => {
   return (
@@ -27,37 +34,14 @@ const BagasseStoreNav = () => {
                     <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                       <img
                         alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                        src={pic1}
                         className="size-full object-cover"
                       />
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
                       <img
                         alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                        className="size-full object-cover"
-                      />
-                    </div>
-                  </div>
-                  <div className="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img
-                        alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                        className="size-full object-cover"
-                      />
-                    </div>
-                    <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img
-                        alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                        className="size-full object-cover"
-                      />
-                    </div>
-                    <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img
-                        alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                        src={pic2}
                         className="size-full object-cover"
                       />
                     </div>
@@ -66,14 +50,37 @@ const BagasseStoreNav = () => {
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
                       <img
                         alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                        src={pic3}
                         className="size-full object-cover"
                       />
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
                       <img
                         alt=""
-                        src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                        src={pic4}
+                        className="size-full object-cover"
+                      />
+                    </div>
+                    <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <img
+                        alt=""
+                        src={pic5}
+                        className="size-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <img
+                        alt=""
+                        src={pic6}
+                        className="size-full object-cover"
+                      />
+                    </div>
+                    <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <img
+                        alt=""
+                        src={pic7}
                         className="size-full object-cover"
                       />
                     </div>
