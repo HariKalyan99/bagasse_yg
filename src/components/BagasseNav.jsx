@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import logo from "../assets/black white nature logo.png";
+import logo from "../assets/logo1.svg";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -15,7 +15,7 @@ const BagasseNav = () => {
   return (
     <>
       <nav
-        className="flex items-center justify-between p-4 lg:px-8 border sticky top-10 z-10 m-5 rounded-2xl rounded-br-none rounded-tl-none bg-white"
+        className="flex items-center justify-between p-4 lg:px-8 border sticky top-10 z-10 m-5 rounded-2xl rounded-br-none rounded-tl-none bg-white border"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">

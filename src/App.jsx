@@ -17,6 +17,7 @@ function App() {
   return (
    <div>
     <BagasseHero />
+    <BagasseNav />
     <BagasseBentoGrid />
     <BagasseContentParallax />
     <BagasseFeaturette />
