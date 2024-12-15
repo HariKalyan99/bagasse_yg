@@ -1,3 +1,4 @@
+import BagasseHero2 from "./BagasseHero2";
 import BagasseNav from "./BagasseNav";
 
 
