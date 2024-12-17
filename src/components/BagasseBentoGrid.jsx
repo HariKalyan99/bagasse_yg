@@ -26,16 +26,13 @@ const BagasseBentoGrid = () => {
         </div>
         <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
       </div>
-      <div className="relative max-lg:row-start-1">
-        <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
+      <div className="relative max-lg:row-start-1 hero-img3s">
+        <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem] hero-img3"></div>
         <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
-          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-            <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Non-degradable tableware has a significant and lasting impact on the environment. These materials take hundreds to thousands of years to break down, contributing to long-term pollution.</p>
-            <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 text-center">So,</p>
-          </div>
-          <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-            <img className="w-[90%] max-lg:max-w-xs " src="https://img.freepik.com/premium-vector/set-eco-friendly-tableware-items-ceramic-wooden-metal-cutlery-zero-waste-concept-vector-illustration-flat-style_551425-2054.jpg" alt="carbon_footprint"/>
-          </div>
+          
+          {/* <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
+            <img className="w-[60%] max-lg:max-w-xs " src="" alt="carbon_footprint"/>
+          </div> */}
         </div>
         <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
       </div>
@@ -46,8 +43,11 @@ const BagasseBentoGrid = () => {
             <p className="mt-1 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Attitude of insensitivity</p>
             <p className="mt-1 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">We are demonstrating a lack of empathy for the well-being of others and the planet.</p>
           </div>
+          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Non-degradable tableware has a significant and lasting impact on the environment. These materials take hundreds to thousands of years to break down, contributing to long-term pollution.</p>
+          </div>
           <div className="flex items-center justify-center">
-            <img className="object-cover" src={transform} alt="transform_pic" />
+            {/* <img className="object-cover" src={transform} alt="transform_pic" /> */}
           </div>
         </div>
         <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>

@@ -16,10 +16,10 @@ import BagasseTrust from "./components/BagasseTrust"
 
 function App() {
   return (
-   <div>
+   <div className="main">
+    <BagasseNav />
     <BagasseHero />
     <BagasseHero2 />
-    <BagasseNav />
     <BagasseBentoGrid />
     <BagasseContentParallax />
     <BagasseFeaturette />
