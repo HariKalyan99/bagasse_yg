@@ -16,7 +16,7 @@ import BagasseTrust from "./components/BagasseTrust"
 
 function App() {
   return (
-   <div className="main">
+   <div>
     <BagasseNav />
     <BagasseHero />
     <BagasseHero2 />

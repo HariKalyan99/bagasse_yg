@@ -1,11 +1,11 @@
-import BagasseHero2 from "./BagasseHero2";
-import BagasseNav from "./BagasseNav";
-
+// import BagasseHero2 from "./BagasseHero2";
+import opening from "../assets/hero.mp4";
+import BagasseBentoGrid from "./BagasseBentoGrid";
 
 const BagasseHero = () => {
   return (
-    <div className="bg-white hero-img rounded-b-2xl" >
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+    <div className="bg-white absolute top-0 rounded-b-2xl">
+      {/* <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -32,7 +32,8 @@ const BagasseHero = () => {
           aria-hidden="true"
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         ></div>
-      </div>
+      </div> */}
+      <video src={opening} autoPlay loop muted/>
     </div>
   );
 };
