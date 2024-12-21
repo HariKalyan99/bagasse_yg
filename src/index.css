@@ -29,14 +29,14 @@ background: linear-gradient(90deg, rgba(126,132,145,1) 0%, rgba(117,123,136,1) 1
 /* add parallax */
 .hero-img2 {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   border-bottom-left-radius: 1.5rem;
   background-image: linear-gradient(
       180deg,
       rgba(50, 59, 77, 0.4),
       rgba(245, 247, 252, 0.4)
     ),
-    url("./assets/table.gif");
+    url("./assets/hero.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 10%;

@@ -11,12 +11,12 @@ const BagasseBentoGrid = () => {
       <div className="relative lg:row-span-2">
         <div className="absolute inset-px rounded-lg bg-white lg:rounded-l-[2rem]"></div>
         <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
-          <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
-            <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Nature at its abudance</p>
-            <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Nature is necessary for our health and wellbeing, and some say that people who connect with nature experience more life satisfaction.</p>
+          <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10 bg-[#093a2c]">
+            <p className="mt-2 text-xl font-medium tracking-tight text-gray-950 max-lg:text-center text-bold">Nature at its abudance</p>
+            <p className="mt-2 max-w-lg text-sm/6 text-[white] max-lg:text-center">Nature is necessary for our health and wellbeing, and some say that people who connect with nature experience more life satisfaction.</p>
           </div>
-          <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
-            <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
+          <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm bg-[#093a2c]">
+            <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-black bg-black shadow-2xl">
               <img className="size-full object-contain object-top" src={"https://mir-s3-cdn-cf.behance.net/project_modules/hd/5a689a45620741.5836c63d2c7f3.gif"} alt="" />
               <div className='absolute bottom-0'>
               <img className="size-full object-contain object-top" src={"https://i.pinimg.com/originals/75/5e/88/755e88467e9492ee6f9ffa3a120afba2.gif"} alt="" />
